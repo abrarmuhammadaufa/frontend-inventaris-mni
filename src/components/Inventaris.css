@@ -1,0 +1,32 @@
+.body-inventaris {
+    align-items: center;
+    text-align: center;
+}
+
+.judul-inventaris {
+    margin-bottom: 50px;
+    margin-top: 110px;
+}
+
+body {
+    color: rgb(0, 109, 42) !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row {
+    align-items: center !important;
+    color: rgb(0, 109, 42);
+    justify-content: center !important;
+}
+
+.table.table-bordered {
+    color: rgb(0, 109, 42);
+    text-align: center;
+    width: 100%;
+    margin-bottom: 150px;
+    background-color: rgb(240, 252, 186);
+}
+
+tbody {
+    color: rgb(0, 109, 42) !important;
+}

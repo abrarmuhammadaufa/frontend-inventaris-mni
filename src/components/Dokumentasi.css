@@ -1,0 +1,30 @@
+.container-dokum {
+    max-width: 1600px;
+    margin-top: 160px;
+    margin-left: 200px;
+}
+
+.jenis-dokumentasi {
+    align-items: center;
+    background: rgb(240, 252, 186);
+    box-shadow: 0px 1px 6px ;
+    font-size:17px;
+    padding: 30px 30px 30px 40px ;
+    /* margin-left: 360px; */
+    margin: auto; /* Menengahkan secara horizontal */
+    margin-bottom: 100px;
+    max-width: 1200px;
+    border: 1px solid #ccc; /* Menambahkan border pada kotak */
+    border-radius: 5px; /* Memberikan sudut yang lebih lembut pada kotak */
+}
+
+.col-4.align-items-center {
+    /* margin-right: 77px; */
+    margin-top: 0px !important;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Dokumentasi {
+    margin-bottom: 60px !important;
+}

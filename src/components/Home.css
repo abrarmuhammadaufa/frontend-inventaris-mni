@@ -1,0 +1,46 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.align-items-center {
+    margin-top: 50px;
+    color: rgb(0, 109, 42);
+}
+
+.lead {
+    color : rgb(0, 109, 42); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 25px;
+    text-align: justify;
+}
+
+.lead.d-sm-flex {
+    color : rgb(0, 109, 42); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: justify;
+}
+
+.masjid {
+    align-items: center;
+    margin-bottom: 150px;
+    margin-top: 140px;
+    text-align: center;
+}
+
+.row {
+    margin: auto;
+}
+
+.rounded.mx-auto.img-fluid {
+    width: 250px;
+}
+
+.col-12.col-sm-6.col-md-7.offset-md-1 {
+    color: rgb(0, 109, 42);
+    margin-left: 60px;
+}
+
+.col-2.col-md-2.align-items-center {
+    margin-bottom: 70px !important;
+    margin-right: 30px;
+}

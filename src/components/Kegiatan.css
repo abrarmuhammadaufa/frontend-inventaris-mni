@@ -1,0 +1,44 @@
+.isi-kegiatan {
+    color : rgb(0, 109, 42); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+
+.kegiatan {
+    align-items: center;
+    margin-bottom: 150px;
+    margin-top: 140px;
+    text-align: center;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.judul-kegiatan {
+    margin-bottom: 30px;
+}
+
+.tabel {
+    /* margin-left: 100px; */
+    padding-top: 8px;
+    padding-left: 80px;
+}
+
+.titik-dua {
+    width: 30px;
+}
+
+.jenis-kegiatan {
+    align-items: center;
+    background: rgb(240, 252, 186);
+    box-shadow: 0px 1px 6px ;
+    font-size:17px;
+    padding: 30px 30px 30px 40px ;
+    /* margin-left: 360px; */
+    margin: auto; /* Menengahkan secara horizontal */
+    margin-bottom: 100px;
+    max-width: 1200px;
+    border: 1px solid #ccc; /* Menambahkan border pada kotak */
+    border-radius: 5px; /* Memberikan sudut yang lebih lembut pada kotak */
+}

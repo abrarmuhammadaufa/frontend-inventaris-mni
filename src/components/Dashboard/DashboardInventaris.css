@@ -1,0 +1,128 @@
+.dashboard-default {
+    display: flex;
+
+    .dashboard-container {
+        flex: 6;
+        align-items: center !important;
+        justify-content: center !important;
+
+        .judul-inventaris-admin {
+            display: flex;
+            height: 60px;
+            /* align-items: center !important;
+            justify-content: center !important; */
+            margin-top: 40px;
+            margin-bottom: 60px;
+            margin-left: 160px;
+        }
+
+        .btn-tambah {
+            display: flex;
+            font-family: Verdana, Geneva, sans-serif;
+            background-color: transparent;
+            color: rgb(0, 109, 42);
+            margin-left: 145px;
+            margin-bottom: 6px;
+            border: 0px;
+            align-items: center;
+
+            &:hover {
+                background-color: rgb(230, 227, 227);
+            }
+        }
+
+        
+
+        .nama-category {
+            margin-left: 5px;            
+            font-weight: 600;
+        }
+        
+        .row {
+            align-items: center !important;
+            justify-content: center !important;
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 30px;
+            /* margin-right: auto;
+            margin-left: auto; */
+            
+        }
+
+        .table.table-bordered {
+            /* display: flex; */
+            align-items: center !important;
+            justify-content: center !important;
+            /* margin-left: 475px; */
+            background-color: rgb(240, 252, 186);
+            /* border: 0.5px solid rgb(230, 227, 227); */
+            margin-bottom: 120px;
+            width: 100%;
+            margin-right: 0;
+            max-width: 1200px;
+            border: 1px solid #dee2e6;
+            margin-left: 100px;
+
+
+            .btn-edit {
+                align-items: center;
+                border: 0px;
+                background-color: transparent !important;
+                color: rgb(0, 109, 42) !important;
+
+                &:hover {
+                    background-color: rgb(230, 227, 227) !important;
+                }
+            }
+
+            .btn-hapus {
+                align-items: center;
+                border: 0px;
+                background-color: transparent !important;
+                color: rgb(0, 109, 42) !important;
+
+                &:hover {
+                    background-color: rgb(230, 227, 227) !important;
+                }
+            }
+
+            
+            
+
+            .simple-table {
+                /* max-width: 1200px; */
+                /* align-items: center !important;
+                justify-content: center !important; */
+                font-size: 14px;
+                font-family: Verdana, Geneva, sans-serif;
+                color: rgb(0, 109, 42) !important;
+                text-align: center;
+
+                TableHead {
+                    color: rgb(0, 109, 42) !important;
+                }
+
+                .center-no {
+                    width: 5%;
+                    color: rgb(0, 109, 42) !important;
+                }
+
+                .icon &:hover {
+                    cursor: pointer;
+                }
+                
+            }
+        }
+    }
+}
+
+.btn-primary {
+    color: rgb(0, 109, 42);
+    background-color: transparent;
+    border-color: transparent;
+
+    &:hover {
+        background-color: rgb(230, 227, 227);
+        color: rgb(0, 109, 42);
+    }
+}
